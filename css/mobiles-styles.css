@@ -1,0 +1,62 @@
+
+
+/*===== @MEDIA QUERY ====*/
+
+@media screen and (max-width: 425px){
+    .welcome .display-3{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    .display-3 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+    }
+   .services h1{
+       font-size: 2rem !important;
+   }
+   .welcome{
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+   }
+    .welcome h1{
+   font-size: 2rem;
+   }
+   .reviews-text{
+       font-size: 1.5rem;
+   }
+   .project-area{
+    padding: 0rem 0 !important;
+}
+.project-area .button-group button{
+   background: transparent;
+   border: none;
+   font: 600 16px/130px var(--rajdhani) !important ;
+   text-transform: uppercase;
+   
+}
+.project-area .button-group button+button{
+    padding-left: 1rem !important;
+}
+.project-area .grid .title h4{
+    font: 200 15px/12px var(--gugi);
+}
+}
+@media screen and (max-width: 320px){
+    .project-area{
+    padding: 0rem 0 !important;
+}
+.project-area .button-group button{
+   font: 600 16px/100px var(--rajdhani) !important ;
+   text-transform: uppercase;
+   color: brown;
+   
+}
+.project-area .button-group button+button{
+    padding-left: 1rem !important;
+}
+.project-area .grid .title h4{
+    font: 200 15px/12px var(--gugi);
+}
+}
